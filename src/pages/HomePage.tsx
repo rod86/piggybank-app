@@ -28,6 +28,7 @@ const HomePage: React.FC = () => {
     return (
         <Layout>
             <h1>Pagos</h1>
+            <Link to="/login">Login me</Link>
 
             <Table className="vertical-align-midddle">
                 <thead>
