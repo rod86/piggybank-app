@@ -1,0 +1,45 @@
+// Links
+a {
+    @include transition(color $transition-delay $transition-transition);
+
+    &.btn {
+        @include transition($btn-transition);
+    }
+}
+
+// Description lists
+dl {
+    & > dd {
+        padding-top: .5rem;
+        padding-bottom: .8rem;
+    }
+
+    @include media-breakpoint-up(md) {
+        & > dd {
+            padding-bottom: .5rem;
+        }
+
+        & > dt {
+            padding-top: .5rem;
+            padding-bottom: .5rem;
+        }
+    }
+}
+
+// Tables
+.table {
+    thead th {
+        background-color: $table-head-bg;
+        border: none;
+    }
+
+    tbody tr {
+        &:first-child td {
+            border-top: none;
+        }
+    }
+
+    &.vertical-align-midddle tbody tr td {
+        vertical-align: middle;
+    }
+}

@@ -1,0 +1,90 @@
+// animation
+$transition-transition: ease-in-out;
+$transition-delay: 0.3s;
+$transition-base: all $transition-delay $transition-transition;
+
+
+/*** BOOTSTRAP ***/
+
+// Colors
+$transparent: transparent;
+$white: #ffffff;
+$gray-light: #f8f9fa; // gray-100
+$gray: #adb5bd; // gray-500
+$gray-dark: #343a40; // gray-800
+$blue: #1d8cf8;
+$pink: #e14eca;
+$red: #d9534f;
+$yellow: #ffd57e;
+$green: #4bbf73;
+
+// Blues
+$dark-blue: #222a42;
+$dark-blue-800: lighten($dark-blue, 3);
+$dark-blue-700: lighten($dark-blue, 10);
+$dark-blue-600: lighten($dark-blue, 17);
+$dark-blue-500: lighten($dark-blue, 25);
+
+$primary: $pink;
+$secondary: $dark-blue-600;
+$info: $blue !default;
+$dark: $gray-dark;
+
+// Body
+$body-bg: $dark-blue;
+$body-color: $gray-light;
+
+// Links
+$link-hover-decoration: none;
+
+// Components
+$border-color: $dark-blue-700;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-weight-light: 200;
+$font-weight-normal: 400;
+$font-weight-base: $font-weight-light;
+$headings-font-weight: $font-weight-normal;
+$headings-margin-bottom: 2rem;
+$display1-weight: $font-weight-normal;
+$display2-weight: $font-weight-normal;
+$display3-weight: $font-weight-normal;
+$display4-weight: $font-weight-normal;
+
+// Tables
+$table-cell-padding: 1rem;
+$table-head-bg: $dark-blue-800;
+$table-accent-bg: $dark-blue-700;
+
+// Forms
+$input-padding-y: 0.5rem;
+$input-padding-x: 0.8rem;
+$input-bg: $dark-blue-800;
+$input-disabled-bg: $dark-blue;
+$input-color: $body-color;
+$input-border-color: $dark-blue-700;
+$input-placeholder-color: $dark-blue-500;
+
+// Jumbotron
+$jumbotron-bg: $dark-blue-700;
+
+// Cards
+$card-bg: $dark-blue-700;
+
+// Alerts
+$alert-bg-level: -2;
+$alert-border-width: 0;
+$alert-padding-y: 1rem;
+$alert-padding-x: 1.75rem;
+$alert-margin-bottom: 1.2rem;
+
+// Progress bars
+$progress-height: 1.3rem;
+$progress-bg: $dark-blue-600;
+
+// List group
+$list-group-bg: $dark-blue-700;
+$list-group-border-color: $dark-blue-600;
+$list-group-hover-bg: $dark-blue-600;
+$list-group-action-color: $body-color;
