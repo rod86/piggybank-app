@@ -6,6 +6,7 @@ const TsConfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 
 const path = require('path');
 const isProduction = (process.env.NODE_ENV === "production");
+const port = process.env.PORT || 3000;
 
 module.exports = {
     entry: './src/index.tsx',
@@ -16,8 +17,8 @@ module.exports = {
     },
     devServer: {
         historyApiFallback: true,
-        port: 3000,
-        contentBase: path.join(__dirname, 'public'),
+        port: port,
+        contentBase: path.join(__dirname, 'public')
     },
     resolve: {
         extensions: ['.tsx', '.ts', '.js'],
