@@ -18,7 +18,8 @@ module.exports = {
     devServer: {
         historyApiFallback: true,
         port: port,
-        contentBase: path.join(__dirname, 'public')
+        contentBase: path.join(__dirname, 'public'),
+        openPage: "http://localhost:3000"
     },
     resolve: {
         extensions: ['.tsx', '.ts', '.js'],
